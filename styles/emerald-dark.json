@@ -1,0 +1,34 @@
+{
+ "version": 3,
+ "title": "Emerald Dark",
+ "settings": {
+   "color": {
+     "palette": [
+       { "color": "#060D0A", "name": "Deep Forest Black", "slug": "deep-black" },
+       { "color": "#10B981", "name": "Emerald Green", "slug": "pure-white" },
+       { "color": "#E2E8F0", "name": "Slate White", "slug": "gray-light" },
+       { "color": "#10B981", "name": "Emerald BG", "slug": "button-bg" },
+       { "color": "#34D399", "name": "Mint Green", "slug": "links" }
+     ]
+   }
+ },
+ "styles": {
+   "color": {
+     "background": "var(--wp--preset--color--deep-black)",
+     "text": "var(--wp--preset--color--gray-light)"
+   },
+   "elements": {
+     "button": {
+       "color": {
+         "background": "var(--wp--preset--color--button-bg)",
+         "text": "var(--wp--preset--color--deep-black)"
+       }
+     },
+     "heading": {
+       "color": {
+         "text": "var(--wp--preset--color--gray-light)"
+       }
+     }
+   }
+ }
+}

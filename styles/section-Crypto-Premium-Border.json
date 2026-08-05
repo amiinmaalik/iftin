@@ -1,0 +1,16 @@
+{
+   "version": 3,
+   "title": "Crypto Premium Border",
+   "blockTypes": [ "core/group" ],
+   "styles": {
+       "color": {
+           "background": "var:preset|color|deep-black"
+       },
+       "border": {
+           "color": "var:preset|color|button-bg",
+           "style": "solid",
+           "width": "1px",
+           "radius": "12px"
+       }
+   }
+}

@@ -1,0 +1,34 @@
+{
+ "version": 3,
+ "title": "Ocean Trust",
+ "settings": {
+   "color": {
+     "palette": [
+       { "color": "#030A16", "name": "Midnight Blue", "slug": "deep-black" },
+       { "color": "#38BDF8", "name": "Sky Blue", "slug": "pure-white" },
+       { "color": "#E2E8F0", "name": "Ice White", "slug": "gray-light" },
+       { "color": "#38BDF8", "name": "Sky Blue BG", "slug": "button-bg" },
+       { "color": "#60A5FA", "name": "Soft Blue", "slug": "links" }
+     ]
+   }
+ },
+ "styles": {
+   "color": {
+     "background": "var(--wp--preset--color--deep-black)",
+     "text": "var(--wp--preset--color--gray-light)"
+   },
+   "elements": {
+     "button": {
+       "color": {
+         "background": "var(--wp--preset--color--button-bg)",
+         "text": "var(--wp--preset--color--deep-black)"
+       }
+     },
+     "heading": {
+       "color": {
+         "text": "var(--wp--preset--color--gray-light)"
+       }
+     }
+   }
+ }
+}

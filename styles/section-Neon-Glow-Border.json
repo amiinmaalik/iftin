@@ -1,0 +1,16 @@
+{
+   "version": 3,
+   "title": "Neon Glow Border",
+   "blockTypes": [ "core/group" ],
+   "styles": {
+       "color": {
+           "background": "var:preset|color|background"
+       },
+       "border": {
+           "color": "var:preset|color|button-bg",
+           "style": "solid",
+           "width": "2px",
+           "radius": "16px"
+       }
+   }
+}

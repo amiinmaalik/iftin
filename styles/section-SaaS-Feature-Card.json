@@ -1,0 +1,21 @@
+{
+   "version": 3,
+   "title": "SaaS Feature Card",
+   "blockTypes": [ "core/group" ],
+   "styles": {
+       "color": {
+           "background": "#121212"
+       },
+       "border": {
+           "radius": "8px"
+       },
+       "spacing": {
+           "padding": {
+               "top": "2rem",
+               "right": "2rem",
+               "bottom": "2rem",
+               "left": "2rem"
+           }
+       }
+   }
+}

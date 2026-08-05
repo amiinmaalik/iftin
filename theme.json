@@ -1,0 +1,251 @@
+{
+	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#0A0101",
+					"name": "Deep Dark Black",
+					"slug": "deep-black"
+				},
+				{
+					"color": "#D6D6D6",
+					"name": "Light Platinum",
+					"slug": "pure-white"
+				},
+				{
+					"color": "#D6D6D6",
+					"name": "Body Text Gray",
+					"slug": "gray-light"
+				},
+				{
+					"color": "#8C042E",
+					"name": "Crimson Wine",
+					"slug": "button-bg"
+				},
+				{
+					"color": "#D6D6D6",
+					"name": "Link Gray",
+					"slug": "links"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "50rem",
+			"wideSize": "80rem"
+		},
+		"spacing": {
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{
+					"name": "Small",
+					"size": "0.5rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "1.25rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "1.5rem",
+					"slug": "extra-large"
+				},
+				{
+					"name": "2X Large",
+					"size": "2rem",
+					"slug": "2xl"
+				}
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter-v20-latin-regular.woff2"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter-v20-latin-500.woff2"
+							]
+						}
+					],
+					"fontFamily": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+					"name": "Inter (Body)",
+					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Plus Jakarta Sans",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/plus-jakarta-sans-v12-latin-700.woff2"
+							]
+						}
+					],
+					"fontFamily": "'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+					"name": "Plus Jakarta Sans (Headings)",
+					"slug": "plus-jakarta"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "0.875rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "1.25rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "1.75rem",
+					"slug": "extra-large"
+				},
+				{
+					"name": "2X Large",
+					"size": "2.5rem",
+					"slug": "xx-large"
+				},
+				{
+					"name": "Gigantic",
+					"size": "4rem",
+					"slug": "gigantic"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/columns": {
+				"spacing": {
+					"blockGap": "1rem",
+					"margin": {
+						"bottom": "0px",
+						"top": "0px"
+					}
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"blockGap": "1rem",
+					"margin": {
+						"bottom": "0px",
+						"top": "0px"
+					}
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--deep-black)",
+			"text": "var(--wp--preset--color--gray-light)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--button-bg)",
+					"text": "#D6D6D6"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0.6rem",
+						"left": "1.4rem",
+						"right": "1.4rem",
+						"top": "0.6rem"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--plus-jakarta)",
+					"fontWeight": "600",
+					"textDecoration": "none"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--gigantic)",
+					"fontWeight": "700"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"fontWeight": "700"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontWeight": "700"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-large)",
+					"fontWeight": "600"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--pure-white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--plus-jakarta)",
+					"lineHeight": "1.2"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--links)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"textDecoration": "none"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "1rem",
+			"padding": {
+				"left": "2rem",
+				"right": "2rem"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.5"
+		}
+	},
+	"title": "Iftin"
+}
