@@ -16,3 +16,19 @@ Next-generation Full Site Editing (FSE) WordPress Block Theme crafted for Web3 s
 * Official release of Iftin Free core framework.
 * Fully implemented core FSE layouts: index, home, page, and 404 templates.
 * Structured modular layout components within template parts.
+
+== Installation ==
+
+1. Upload the theme.
+2. Activate it.
+3. Customize from Appearance → Editor.
+
+== Frequently Asked Questions ==
+
+= Does Iftin support Full Site Editing? =
+
+Yes.
+
+== License ==
+
+Iftin is licensed under GPL v2 or later.
