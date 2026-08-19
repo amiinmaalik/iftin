@@ -15,7 +15,7 @@
 <div class="wp-block-group" style="padding-top:40px;padding-bottom:40px"><!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:paragraph -->
-<p>Next-generation lightweight block theme crafted carefully for Web3 startups and SaaS systems.</p>
+<p>Next-generation lightweight block theme crafted carefully for Web3 startups and DAOs.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
